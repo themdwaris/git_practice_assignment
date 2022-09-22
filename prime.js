@@ -1,14 +1,15 @@
 
 let number=15
-let count=0
+let counter=0
 
 for(let i=1; i<=n; i++){
     if(number%i==0){
-        count++
+        counter++
     }
 }
-if(count==1){
+if(counter==2){
     return true
 }else{
     return false
 }
+
